@@ -2,14 +2,15 @@
   "expo": {
     "name": "clot",
     "slug": "clot",
+    "scheme": "clot",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/new_splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#8d6def"
     },
     "ios": {
       "supportsTablet": true
@@ -22,6 +23,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
